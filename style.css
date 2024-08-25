@@ -1,0 +1,29 @@
+.toplogo {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+.instagram {
+    text-decoration: none;
+    color: #833ab4;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+  }
+
+  /*skuska*/
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-black) !important;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+}
