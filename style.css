@@ -7,6 +7,10 @@ p {
     text-align: justify;
 }
 
+p a {
+    text-decoration: none;
+}
+
 .instagram {
     text-decoration: none;
     color: #833ab4;
@@ -18,7 +22,6 @@ p {
     border-radius: 0.75rem;
   }
 
-  /*skuska*/
 .border-bottom {
     border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-black) !important;
 }
