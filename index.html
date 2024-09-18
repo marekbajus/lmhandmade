@@ -4,114 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L&M Handmade</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"></head>
-<body style="background-color: #fef7ca;">
-    <!--Header-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <!-- header -->
+    <header>
+        <ul class="navig">
+            <li><a href="#body">domov</a></li>
+            <li><a href="#ponuka">ponuka</a></li>
+            <li><a href="#">o nás</a></li>
+            <li><a href="#kontakt">kontakt</a></li>
+        </ul>
+    </header>
+
+    <!-- slider -->
+    <div class="hlslider">
+        <div class="slide overlay">
+            <div class="pozadie" style="background-image: url(bgn.jpg);"></div>
+            <div class="popis">
+                <h2>L&M Handmade</h2>
+                <a href="#ponuka">Ponuka</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ponuka -->
     <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <img class="toplogo" src="logo.jfif" alt="logo" height="50">
-            <span class="fs-4">L&M Handmade</span>
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Domov</a></li>
-            <li class="nav-item"><a href="ponuka.html" class="nav-link">Ponuka</a></li>
-            <!-- <li class="nav-item"><a href="onas.html" class="nav-link">O nás</a></li> -->
-            <li class="nav-item"><a href="kontakt.html" class="nav-link">Kontakt</a></li>
-            <!-- <li class="nav-item"><a href="skuska.html" class="nav-link">Skuska</a></li> -->
-          </ul>
-        </header>
+        <div id="ponuka" class="ponuka">
+            <h3 style="margin-top: 1rem;">Tu bude ponuka</h3><hr>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Praesentium quae voluptatum provident quas quis repellendus 
+                ipsa quaerat ullam vero esse temporibus animi nobis odit
+                optio porro neque, veritatis accusamus officiis.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Praesentium quae voluptatum provident quas quis repellendus 
+                ipsa quaerat ullam vero esse temporibus animi nobis odit
+                optio porro neque, veritatis accusamus officiis.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Praesentium quae voluptatum provident quas quis repellendus 
+                ipsa quaerat ullam vero esse temporibus animi nobis odit
+                optio porro neque, veritatis accusamus officiis.
+            </p>
+        </div>
     </div>
 
-    <!--Features-->
-    <div class="container px-4 py-5" id="hanging-icons">
-      <h2 class="pb-2 border-bottom">Zľavy <span class="badge text-bg-secondary">Novinka!</span></h2>
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-              <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
-              <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Pri kúpe sviečky</h3>
-            <p>poskytujeme darček vo forme jednej malej sviečky zdarma</p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-              <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
-              <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Pri ďalšej objednávke</h3>
-            <p>10% zľava</p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
-              <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0"/>
-              <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0z"/>
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Pri ďalšej objednávke</h3>
-            <p>jedna väčšia sviečka zdarma podľa výberu</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--O nás-->
-    <div class="my-5" style="background-color: white;">
-      <div class="p-5 text-center bg-body-tertiary">
-        <div class="container py-5">
-          <h2 class="text-body-emphasis">Receptúra</h2>
-          <p class="col-lg-8 mx-auto lead border-bottom">
-            Sviečky, ktoré tvoríme sú 100% na prírodnej báze zo sójového vosku a prírodnými vôňami. 
-            Sójové sviečky sú vyrobené z oleja extrahovaného zo sójových bôbov, ktorý je prírodným a 100% obnoviteľným zdrojom. 
-            Takéto sviečky neprodukujú škodlivý dym. 
-            Pálenie sviečok vyrobených zo sóje je teda pre zdravie neškodné a sójový vosk je biologicky odbúrateľný, 
-            čo je investícia, ktorá priaznivo pôsobí na vaše zdravie a zároveň aj na naše životné prostredie. 
-            Sójový vosk je zdraviu prospešný na rozdiel od parafínových voskov, ktoré zdraviu škodia. 
-            V 90% prípadoch sa s takými sviečkami môžme stretnúť v obchodoch, kde sú poskytované za nemalé peniaze a pritom škodia zdraviu. 
-            Preto sme sa rozhodli, že pôjdeme cestou zdravia.
-            <br>
-            <br>
-          </p>
-
-          <h2 class="text-body-emphasis">Využitie</h2>
-          <p class="col-lg-8 mx-auto lead">
-            Sviečky, ktoré tvoríme sú tvorené predovšetkým ako okrasné, pričom sú vhodné ako darčeky pri všetkých možných príležitostiach. 
-            To ako ich využijete vy je len na Vás. Či ich darujete ako darček alebo si ich doma zapálite. 
-            Každopádne naše sviečky sú vhodné na všetky varianty využitia. Neustále skúšame tvoriť nové tvary. 
-            Vytvorili sme už vyše 17 druhov sviečok a ideme ďalej. Pokúšame sa náročnosť sviečky a celkového tvaru sviečky zvýšiť.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!--Footer-->
+    <!-- kontakt -->
     <div class="container">
-        <footer class="py-3 my-4">
-          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Domov</a></li>
-            <li class="nav-item"><a href="ponuka.html" class="nav-link px-2 text-body-secondary">Ponuka</a></li>
-            <!-- <li class="nav-item"><a href="onas.html" class="nav-link px-2 text-body-secondary">O nás</a></li> -->
-            <li class="nav-item"><a href="kontakt.html" class="nav-link px-2 text-body-secondary">Kontakt</a></li>
-          </ul>
-          <p class="text-center text-body-secondary"><a class="text-body-secondary" href="index.html">© L&M Handmade</a></p>
-        </footer>
+        <h3>Kontakt</h3><hr>
+        <div id="kontakt" class="kontakt">
+            <p>
+                <a href="tel:+421 908 517 470">
+                    <i class="fa-solid fa-phone"></i>
+                    +421 908 517 470
+                </a>
+            </p>
+            <p>
+                <a href="mailto:mareksmidt16@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    mareksmidt16@gmail.com
+                </a>
+            </p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.4900359137573!2d21.299979276769818!3d48.67666191347788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473f207e4ac50e21%3A0xac1d59eeb1dccec0!2sGalaktick%C3%A1%201486%2F14%2C%20040%2012%20Nad%20jazerom!5e1!3m2!1ssk!2ssk!4v1726658261159!5m2!1ssk!2ssk" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
     </div>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- footer -->
+    <footer>
+        <div class="ikonky">
+            <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- hore -->
+    <div class="hore">
+        <a href="#body">
+            <i class="fa-solid fa-chevron-up"></i>
+        </a>
+    </div>
+
+
 </body>
 </html>
