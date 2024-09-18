@@ -129,6 +129,60 @@ header {
     background-color: orange;
 }
 
+/* ponuka */
+
+.ponuka {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: repeat(5,1fr);
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.karta {
+    position: relative;
+    margin-bottom: 1rem;
+    background-color: #1a1a1a;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.karta img {
+    border-radius: 50%;
+    height: 300px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.karta p, .karta h5 {
+    margin-left: 1rem;
+}
+
+.karta h5 {
+    margin-top: 1rem;
+}
+
+.karta a {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.karta a:hover {
+    background-color: orangered;
+}
+
 /* kontakt */
 .kontakt {
     margin-bottom: 1rem;
@@ -168,9 +222,9 @@ footer {
 
 .ikonky a {
     display: inline-block;
-    width: 4rem;
-    height: 4rem;
-    line-height: 4rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
     color: orange;
     border: 0.2rem solid orange;
     border-radius: 50%;
@@ -224,4 +278,82 @@ footer {
 .hore a:hover i {
     color: white;
     transform: rotateY(180deg);
+}
+
+/* 730px 1050px */
+
+@media all and (max-width: 1050px) {
+    .karta img {
+        height: 270px;
+    }
+
+    .ponuka {
+        grid-template-columns: 300px 300px 300px;
+    }
+}
+
+@media all and (max-width: 950px) {
+    .karta img {
+        height: 250px;
+    }
+
+    .ponuka {
+        grid-template-columns: 280px 280px 280px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .ponuka {
+        grid-template-columns: 260px 260px 260px;
+    }
+
+    .karta img {
+        height: 230px;
+    }
+}
+
+@media all and (max-width: 830px) {
+    .ponuka {
+        grid-template-columns: 330px 330px;
+    }
+
+    .karta img {
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 710px) {
+    .ponuka {
+        grid-template-columns: 300px 300px;
+    }
+
+    .karta img {
+        height: 270px;
+    }
+
+    .navig {
+        padding: 0;
+    }
+
+    .navig li {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    header {
+        border-bottom: 1px solid white;
+        position: relative;
+    }
+
+}
+
+@media all and (max-width: 660px) {
+    .ponuka {
+        grid-template-columns: 330px;
+        justify-content: center;
+    }
+
+    .karta img {
+        height: 300px;
+    }
 }
