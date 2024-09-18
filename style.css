@@ -137,6 +137,23 @@ header {
 .kontakt a {
     text-decoration: none;
     color: white;
+    transition: all 0.3s;
+}
+
+.kontakt i {
+    transition: all 0.3s;
+}
+
+.kontakt span {
+    transition: all 0.3s;
+}
+
+.kontakt a:hover i {
+    color: orange;
+}
+
+.kontakt a:hover span {
+    color: orange;
 }
 
 /* footer */
