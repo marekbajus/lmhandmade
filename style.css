@@ -45,8 +45,12 @@ header {
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0));
 }
 
+header img {
+    float: left;
+}
+
 .navig {
-    text-align: center;
+    float: right;
 }
 
 .navig li {
@@ -63,7 +67,7 @@ header {
 }
 
 .navig li a:hover {
-    color: orange;
+    color: #fadca6;
 }
 
 .hlslider {
@@ -117,7 +121,7 @@ header {
     text-decoration: none;
     color: white;
     font-weight: 600;
-    border: 3px solid orange;
+    border: 3px solid #fadca6;
     padding: 1rem 1.5rem;
     margin-top: 1.5rem;
     border-radius: 3rem;
@@ -126,7 +130,8 @@ header {
 }
 
 .popis a:hover {
-    background-color: orange;
+    background-color: #fadca6;
+    color: #065143;
 }
 
 /* ponuka */
@@ -166,8 +171,8 @@ header {
 
 .karta a {
     text-decoration: none;
-    color: white;
-    background-color: orange;
+    color: #065143;
+    background-color: #fadca6;
     padding: 0.7rem 1rem;
     border-radius: 10px;
     font-weight: 600;
@@ -180,7 +185,7 @@ header {
 }
 
 .karta a:hover {
-    background-color: orangered;
+    background-color: #129490;
 }
 
 /* kontakt */
@@ -203,11 +208,11 @@ header {
 }
 
 .kontakt a:hover i {
-    color: orange;
+    color: #fadca6;
 }
 
 .kontakt a:hover span {
-    color: orange;
+    color: #fadca6;
 }
 
 /* footer */
@@ -225,8 +230,8 @@ footer {
     width: 3rem;
     height: 3rem;
     line-height: 3rem;
-    color: orange;
-    border: 0.2rem solid orange;
+    color: #fadca6;
+    border: 0.2rem solid #fadca6;
     border-radius: 50%;
     text-align: center;
     text-decoration: none;
@@ -241,11 +246,11 @@ footer {
 }
 
 .ikonky a:hover {
-    background-color: orange;
+    background-color: #fadca6;
 }
 
 .ikonky a:hover i {
-    color: white;
+    color: #065143;
     transform: rotateY(360deg);
 }
 
@@ -257,9 +262,9 @@ footer {
     position: fixed;
     bottom: 0;
     right: 0;
-    border: 0.2rem solid orange;
+    border: 0.2rem solid #fadca6;
     text-align: center;
-    color: orange;
+    color: #fadca6;
     border-radius: 50%;
     margin-bottom: 1rem;
     margin-right: 1rem;
@@ -272,11 +277,11 @@ footer {
 }
 
 .hore a:hover {
-    background-color: orange;
+    background-color: #fadca6;
 }
 
 .hore a:hover i {
-    color: white;
+    color: #065143;
     transform: rotateY(180deg);
 }
 
