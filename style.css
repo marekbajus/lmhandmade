@@ -338,11 +338,17 @@ footer {
 
     .navig {
         padding: 0;
+        text-align: center;
+        float: none;
     }
 
     .navig li {
         display: block;
         margin: 1rem 0;
+    }
+
+    header .header_logo {
+        display: none;
     }
 
     header {
