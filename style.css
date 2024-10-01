@@ -337,24 +337,7 @@ footer {
         height: 270px;
     }
 
-    .navig {
-        padding: 0;
-        text-align: center;
-        float: none;
-    }
-
-    .navig li {
-        display: block;
-        margin: 1rem 0;
-    }
-
-    header .header_logo {
-        display: none;
-    }
-
     header {
-        border-bottom: 1px solid white;
-        position: relative;
         display: none;
     }
 
@@ -407,6 +390,14 @@ footer {
         font-size: 30px;
         margin-top: 1rem;
         margin-right: 1rem;
+    }
+
+    .resp_logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 1rem;
+        margin-left: 1rem;
     }
 
 }
