@@ -285,6 +285,7 @@ footer {
     transform: rotateY(180deg);
 }
 
+
 /* 730px 1050px */
 
 @media all and (max-width: 1050px) {
@@ -354,6 +355,58 @@ footer {
     header {
         border-bottom: 1px solid white;
         position: relative;
+        display: none;
+    }
+
+    .resp_menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #242424;
+        border-bottom: 2px solid white;
+        transition: all 0.5s;
+        transform: translate(0%,-100%);
+    }
+
+    .resp_menu h5 {
+        margin-top: 0.5rem;
+        color: #fadca6;
+    }
+
+    .resp_menu ul {
+        padding: 0;
+    }
+
+    .resp_menu li {
+        margin: 1rem 0;
+        font-weight: 600;
+    }
+
+    .resp_menu a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .resp_menu_close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 0.8rem;
+        margin-right: 2rem;
+        font-size: 25px;
+    }
+
+    .resp_menu_open a {
+        position: fixed;
+        top: 0;
+        right: 0;
+        text-decoration: none;
+        color: #fadca6;
+        font-size: 30px;
+        margin-top: 1rem;
+        margin-right: 1rem;
     }
 
 }
