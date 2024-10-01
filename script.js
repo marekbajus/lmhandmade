@@ -17,3 +17,7 @@ function close_menu(event) {
     event.preventDefault()
     resp_menu.style.transform = "translate(0%,-100%)"
 }
+
+function close_menu_btn() {
+    resp_menu.style.transform = "translate(0%,-100%)"
+}
