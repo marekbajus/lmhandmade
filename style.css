@@ -285,6 +285,25 @@ footer {
     transform: rotateY(180deg);
 }
 
+@media all and (min-width: 711px) {
+
+    .resp_logo {
+        display: none;
+    }
+
+    .resp_menu {
+        display: none;
+    }
+
+    .resp_menu_close {
+        display: none;
+    }
+
+    .resp_menu_open {
+        display: none;
+    }
+}
+
 
 /* 730px 1050px */
 
