@@ -156,7 +156,7 @@ span.text {
 .ponuka {
     display: grid;
     grid-template-columns: 330px 330px 330px;
-    grid-template-rows: repeat(5,1fr);
+    grid-template-rows: repeat(9,1fr);
     justify-content: space-between;
     margin-bottom: 1rem;
 }
